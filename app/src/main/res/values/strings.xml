@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Application</string>
+
+    <!-- SignIn Activity -->
+    <string name="btnSignInText">Sign in</string>
+    <string name="signInError">Sign in failed! Try again later.</string>
+
+    <!-- Terms Dialog -->
+    <string name="terms_dialog_text"><![CDATA[By continuing, you agree to our Terms & Conditions and Privacy Policy.]]></string>
+    <string name="terms_dialog_title"><![CDATA[Terms & Conditions]]></string>
+    <string name="terms_dialog_pBtn">Accept</string>
+    <string name="terms_dialog_nButton">Decline</string>
+
+    <!-- Menu Items -->
+    <string name="action_crash">Crash App</string>
+    <string name="action_settings"><![CDATA[Settings & More]]></string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Purple Shades -->
+    <color name="primary">#7525EB</color>
+    <color name="primary_variant">#4D16C1</color>
+    <color name="primary_dark">#2A0DE2</color>
+
+    <!-- Accent / Secondary Pinks -->
+    <color name="secondary">#DF4AFA</color>
+    <color name="secondary_variant">#FC7DFF</color>
+
+    <!-- Light Background / Surface -->
+    <color name="background_light">#FEE3FF</color>
+    <color name="surface_light">#FEBDFF</color>
+    <color name="surface_alt">#FDA4FF</color>
+
+    <!-- Dark Backgrounds -->
+    <color name="background_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+
+    <!-- Text / On Colors -->
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#000000</color>
+    <color name="on_background">#000000</color>
+    <color name="on_surface">#FFFFFF</color>
+
+    <!-- Other -->
+    <color name="snow_white">#FFFAFA</color>
+    <color name="dark_purple">#301934</color>
+    <color name="cream">#FFFDD0</color>
+</resources>
