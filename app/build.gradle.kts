@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = "com.app.application"
+    namespace = "com.app.noteva"
     compileSdk {
         version = release(36)
     }
@@ -21,11 +21,11 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.app.application"
+        applicationId = "com.app.noteva"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
-        versionName = "1.0"
+        versionName = "1.0.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -45,7 +45,8 @@ android {
 
     buildTypes {
         getByName("release") {
-            isMinifyEnabled = false
+            isShrinkResources = true
+            isMinifyEnabled = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
             )
@@ -71,11 +72,13 @@ dependencies {
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
 
+    implementation(libs.preference.ktx)
+
     ///FIREBASE
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.analytics)
-    implementation(libs.google.firebase.analytics)
     implementation(libs.firebase.auth)
+    implementation(libs.firebase.database)
 
     //CHROME CUSTOM TABS
     implementation(libs.browser)

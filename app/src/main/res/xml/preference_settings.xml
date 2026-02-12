@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- USER INFO -->
+    <PreferenceCategory
+        android:title="Account">
+
+        <Preference
+            android:key="uid"
+            android:title="User ID"
+            android:summary="Loading..."
+            android:selectable="false"/>
+    </PreferenceCategory>
+
+
+    <!-- LEGAL -->
+    <PreferenceCategory
+        android:title="Legal">
+
+        <Preference
+            android:key="privacy"
+            android:title="Privacy Policy"
+            android:summary="View privacy policy"/>
+
+        <Preference
+            android:key="terms"
+            android:title="Terms &amp; Conditions"
+            android:summary="View terms and conditions"/>
+    </PreferenceCategory>
+
+
+    <!-- APP INFO -->
+    <PreferenceCategory
+        android:title="App Info">
+
+        <Preference
+            android:key="version"
+            android:title="App Version"
+            android:summary="1.0"
+            android:selectable="false"/>
+    </PreferenceCategory>
+
+
+    <!-- SUPPORT -->
+    <PreferenceCategory
+        android:title="Support">
+
+        <Preference
+            android:key="contact"
+            android:title="Contact Developer"
+            android:summary="Send email"/>
+
+        <Preference
+            android:key="github"
+            android:title="GitHub Profile"
+            android:summary="View developer profile"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

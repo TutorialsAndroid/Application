@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Application</string>
+    <string name="app_name">Noteva</string>
 
     <!-- SignIn Activity -->
     <string name="btnSignInText">Sign in</string>
@@ -12,6 +12,12 @@
     <string name="terms_dialog_nButton">Decline</string>
 
     <!-- Menu Items -->
-    <string name="action_crash">Crash App</string>
     <string name="action_settings"><![CDATA[Settings & More]]></string>
+    <string name="action_logout">Logout</string>
+
+    <!-- MainActivity -->
+    <string name="ilEnterNoteHint">Enter Note</string>
+    <string name="auto_save_msg_on">Auto Saved!</string>
+    <string name="auto_save_msg_off">Saving Automatically!</string>
+    <string name="auto_save_msg_error">Failed to save note!</string>
 </resources>
